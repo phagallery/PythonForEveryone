@@ -1,0 +1,13 @@
+print('Hello World')
+print('Hello Pha')
+print('Hello \tJohn')
+print('Hello')
+print('\n\n')
+print('Hello\t\tNipaporn')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print('Hello')
+print(3+4)
+
