@@ -1,14 +1,20 @@
-tilecolor ={'red':100,'gold':200,'white':90}
+tilecolor ={'red':100,'gold':200,'white':90,'grey':30}
+
+print('-----------ราคากระเบื้อง----------')
+for c,t in tilecolor.items():
+        print('สี: {} ราคา: {}'.format(c,t))
+
 print('------------ โปรแกรมคำนวณกระเบื้อง by Pha ---------------')
+
 try :
         tiles = int(input('คุณต้องการปูกระเบื้องทั้งหมดกี่แผ่น : '))
         row = int(input('1 แถวต้องปูกระเบื้องกี่แผ่น : '))
-        color = input('กระเบื้องสีอะไร? [ red/gold/white] : ')
+        color = input('กระเบื้องสีอะไร? [ red/gold/white/grey] : ')
 except :
         print('กรุณากรอกข้อมูลเป็นตัวเลขเท่านั้น !!')
         tiles = int(input('คุณต้องการปูกระเบื้องทั้งหมดกี่แผ่น : '))
         row = int(input('1 แถวต้องปูกระเบื้องกี่แผ่น : '))
-        color = input('กระเบื้องสีอะไร? [ red/gold/white] : ')
+        color = input('กระเบื้องสีอะไร? [ red/gold/white/grey] : ')
     # เช็ค Error ได้แค่รอบเดียวถ้าต้องการวนซ้ำให้ใช้ while    
 print('----------------- Calulate -------------')
 total_row = tiles//row
